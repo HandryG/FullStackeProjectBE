@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLil", "TestLil\TestLil.csproj", "{F19CAAB3-A172-438D-BF03-87C78C696084}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLil.Entities", "TestLil.Entities\TestLil.Entities.csproj", "{763FBBDE-F1FF-4ABA-B757-9FF3FBDD3622}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLil.Aplication", "TestLil.Aplication\TestLil.Aplication.csproj", "{ED4E4E33-AEEB-44D8-9D57-93739A74D2A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLil.Repository", "TestLil.Repository\TestLil.Repository.csproj", "{5D00F6B0-9537-4983-A8F4-3EB6FDE2EDDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLil.DataAccess", "TestLil.DataAccess\TestLil.DataAccess.csproj", "{777DE83C-8D58-486F-98B6-78DE2A82E2E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLil.Abstraction", "TestLil.Abstraction\TestLil.Abstraction.csproj", "{D37ECFD4-0A05-4062-89A3-52034B722417}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{90FC32FA-924C-402D-A866-C77FB54FAB91}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F19CAAB3-A172-438D-BF03-87C78C696084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F19CAAB3-A172-438D-BF03-87C78C696084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F19CAAB3-A172-438D-BF03-87C78C696084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F19CAAB3-A172-438D-BF03-87C78C696084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{763FBBDE-F1FF-4ABA-B757-9FF3FBDD3622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{763FBBDE-F1FF-4ABA-B757-9FF3FBDD3622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{763FBBDE-F1FF-4ABA-B757-9FF3FBDD3622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{763FBBDE-F1FF-4ABA-B757-9FF3FBDD3622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED4E4E33-AEEB-44D8-9D57-93739A74D2A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED4E4E33-AEEB-44D8-9D57-93739A74D2A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED4E4E33-AEEB-44D8-9D57-93739A74D2A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED4E4E33-AEEB-44D8-9D57-93739A74D2A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D00F6B0-9537-4983-A8F4-3EB6FDE2EDDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D00F6B0-9537-4983-A8F4-3EB6FDE2EDDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D00F6B0-9537-4983-A8F4-3EB6FDE2EDDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D00F6B0-9537-4983-A8F4-3EB6FDE2EDDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{777DE83C-8D58-486F-98B6-78DE2A82E2E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777DE83C-8D58-486F-98B6-78DE2A82E2E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777DE83C-8D58-486F-98B6-78DE2A82E2E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777DE83C-8D58-486F-98B6-78DE2A82E2E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D37ECFD4-0A05-4062-89A3-52034B722417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D37ECFD4-0A05-4062-89A3-52034B722417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D37ECFD4-0A05-4062-89A3-52034B722417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D37ECFD4-0A05-4062-89A3-52034B722417}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C240A7D9-F5E8-4836-BC23-07486DC7055F}
+	EndGlobalSection
+EndGlobal
